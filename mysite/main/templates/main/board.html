@@ -1,0 +1,83 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block content %}
+ <p class="board">
+  <h1 id="board-header">게시판</h1>
+  <article class="post-list">
+    <div id="post-no">
+      <h5 id = "post-title">
+        수능 과탐 과목 선택 고민....
+      </h5>
+      <p id="content">
+        고2 이과 학생입니다. 내년 수능 과탐과목 선택 어떤게 좋을까요? <br/><br/>
+        <button type="button" class="btn btn-success">진로상담</button>
+        <button type="button" class="btn btn-success">과목선택</button>
+        <button type="button" class="btn btn-success">자연계열</button> 
+        <p id="date">
+          3시간 전
+        </p>
+      </p>
+    </div>
+    <div id="post-no">
+      <h5 id = "post-title">
+        예비고1 공부습관을 바꾸고 싶습니다
+      </h5>
+      <p id="content">
+        내년에 고등학교 입학 예정인데 시간 배분을 어떻게 하는게 좋을까요? <br/><br/>
+        <button type="button" class="btn btn-success">진로상담</button>
+        <button type="button" class="btn btn-success">공부습관</button>
+        <p id="date">
+          하루 전
+        </p>
+      </p>
+    </div>
+    <div id="post--no">
+      <h5 id = "post-title">
+        학교 생활이 너무 힘들어요....
+      </h5>
+      <p id="content">
+        실업계 고등학생입니다. 애들이 너무 괴롭혀요 <br/><br/>
+        <button type="button" class="btn btn-success">심리상담</button>
+        <button type="button" class="btn btn-success">학교생활</button>
+        <p id="date">
+          2일 전
+        </p>
+      </p>
+    </div>
+    <div id="post-no">
+      <h5 id = "post-title">
+        동물을 좋아하는데 무슨과를 가면 좋을까요
+      </h5>
+      <p id="content">
+        사육사나 조련사가 꿈인 학생입니다 관련된 학과나 대학교 추천받고싶어요 <br/><br/>
+        <button type="button" class="btn btn-success">진로상담</button>
+        <button type="button" class="btn btn-success">전공선택</button>
+        <button type="button" class="btn btn-success">대학정보</button> 
+        <p id="date">
+          2일 전
+        </p>
+      </p>
+    </div>
+    <div id="post-no">
+      <h5 id = "post-title">
+        생명과학 유전파트 문제가 안풀려요
+      </h5>
+      <p id="content">
+        너무 어려워요 <br/><br/>
+        <button type="button" class="btn btn-success">문제해결</button>
+        <button type="button" class="btn btn-success">공부습관</button>
+        <button type="button" class="btn btn-success">자연계열</button> 
+        <p id="date">
+          3 일 전
+        </p>
+      </p>
+    </div>
+    <p id="write">
+        <a href="new"><button type="button" class="btn btn-secondary btn-lg" >글쓰기</button></a>
+     </p>
+  </article>
+
+    
+ <!-- Footer include-->
+
+{% endblock content %}
