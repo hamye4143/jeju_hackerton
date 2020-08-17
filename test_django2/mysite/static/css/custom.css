@@ -1,0 +1,206 @@
+
+.navbar_new {
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+a:hover{
+  color:#18947b;
+}
+/*검색 바 */
+.searchbar {
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 60px;
+  background-color: #353b48;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.search_input {
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color: transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+}
+
+.searchbar:hover>.search_input {
+  padding: 0 10px;
+  width: 450px;
+  caret-color: red;
+  transition: width 0.4s linear;
+}
+
+.searchbar:hover>.search_icon {
+  background: white;
+  color: #18947b;
+}
+
+.search_icon {
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+}
+
+.left{
+  text-align: left;
+}
+
+@media (min-width: 768px) { /*768 이상일 때 적용 */
+  .request-form{
+    padding: 2.4375rem;
+    padding-top: 2.4375rem;
+    padding-right: 2.4375rem;
+    padding-bottom: 2.4375rem;
+    padding-left: 2.4375rem;
+    max-width: 35rem;
+  }
+  .question{
+    padding: 2.5rem;
+  }
+}
+
+.button-wrapper{
+  display: flex;
+}
+
+.step-wrapper{
+  width: 100%;
+  text-align: right;
+  display: flex;
+}
+
+.request-form-wrap{
+  min-height: 300px;
+  width: 37.5rem;
+  padding-right: 2.5rem;
+  z-index: 2;
+  background: gold;
+}
+
+/*정민*/
+
+#board-header{
+  border-bottom: #066543 solid 3px;
+  padding: 20px;
+  margin-bottom: 50px;
+  color: #066543;
+}
+
+#write{
+  text-align: right;
+  
+}
+
+#post-no{
+  margin: 0;
+  border-bottom: solid 1px;
+  border-top: solid 1px;
+}
+
+.post-list{
+  margin-left:200px;
+  margin-right: 200px;
+}
+
+#date{
+  font-size: 12px;
+}
+
+.color{
+  background: gold;
+}
+
+
+
+/* 글쓰기폼 */
+
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+.iconsize{
+  font-size: 5rem;
+}
+
+.color-red{
+  color: red;
+}
+.color-blue{
+  color: blue;
+}

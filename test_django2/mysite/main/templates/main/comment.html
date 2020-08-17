@@ -1,0 +1,23 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block content %}
+<section>
+  <img src="{% static 'img/agi1.jpg' %}" class="rounded-circle mx-auto d-block" alt="아기" width = 300px height = 300px>
+  <ul>
+    <li><p>이름 : 아기</p></li>
+    <li><p>전공 : 서울대학교 영어영문과</p></li>
+    <li><p>설명 : 저는 현재 000대학교 0학년 00전공 000입니다. 저는 고등학생이나 중학생들의 진로 고민을 해결해드립니다. 오면 맛있는 것도 사줄게요~^^</p></li>
+  </ul>
+  <a href="">
+  <i class="far fa-comment-dots iconsize"></i>
+  </a>
+  <i style="text-align:center;" onclick="myFunction(this)" class="far fa-heart iconsize color-red"></i>
+</section>
+
+<script>
+function myFunction(x) {
+  x.classList.toggle("fas");
+}
+</script>
+
+{% endblock content %}

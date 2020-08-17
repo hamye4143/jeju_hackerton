@@ -1,0 +1,56 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block content %}
+
+
+  <!-- Icons Grid -->
+  <section class="features-icons bg-light text-center">
+    <div class="container">
+      <div class="row">
+        <div class="request-form-wrap">
+        <div class="col-12 request-form">
+          <div class="question">멘토링 받길 원하는 분야를 선택해주세요</div>
+          <ul class="list-group left">
+            <li class="list-group-item">
+              <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" class="custom-control-input" name="customRadio" id="customRadio1">
+                <label class="custom-control-label" for="customRadio1">공부 습관을 알려주고 싶어요</label>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" class="custom-control-input" name="customRadio" id="customRadio2">
+                <label class="custom-control-label" for="customRadio2">학업 문제를 해결해주고 싶어요</label>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" class="custom-control-input" name="customRadio" id="customRadio3">
+                <label class="custom-control-label" for="customRadio3">전공 선택에 도움을 주고 싶어요</label>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" class="custom-control-input" name="customRadio" id="customRadio4">
+                <label class="custom-control-label" for="customRadio4">심리적으로 상담을 해주고 싶어요</label>
+              </div>
+            </li>
+          </ul>
+          <div class="step-wrapper">
+            <div class="button-wrapper">
+              <button  type="button" class="btn btn-primary step-btn color-white"> 이전 </button>
+              <button  type="button" class="btn btn-primary step-btn color-teal"> 다음 </button>
+            </div>
+          </div>
+          <!-- <button type="button" class="btn btn-primary">다음</button>
+          <button type="button" class="btn btn-primary">이전</button> -->
+
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+{% endblock content %}
+
+
